@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Fira';
-    src: url('fonts/FiraMono-Regular.otf');
+    src: url('../fonts/FiraMono-Regular.otf');
 }
 
 body {
-	background-image: url("images/bodybg.jpg");
+	background-image: url("../images/bodybg.jpg");
 	background-repeat: repeat;
 	display: flex;
 	min-height: 100vh;
@@ -26,7 +26,7 @@ main {
 
 nav {
 	font-family: Fira;
-	background-image: url("images/contentwrap.png");
+	background-image: url("../images/contentwrap.png");
 }
 
 nav ul li.active {
@@ -34,16 +34,21 @@ nav ul li.active {
 }
 
 
-p {
+p.body-content {
 	font-family: Fira;
 	color: #000000;
+    margin-left: 15em;
+    font-size: 35px;
 }
 
 footer.page-footer {
-	background-image: url("images/contentwrap.png");
-	alignment: bottom;
+	background-image: url("../images/contentwrap.png");
+    margin-top: 0px;
+    padding-top: 0px;
 }
-
 strong {
 	font-family: Fira;
+}
+.container{
+    text-align: center;
 }
