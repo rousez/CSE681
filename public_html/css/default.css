@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Fira';
+    src: url('fonts/FiraMono-Regular.otf');
+}
+
+body {
+	background-image: url("images/bodybg.jpg");
+	background-repeat: repeat;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+h1 {
+	position: relative;
+	font-family: Fira;
+	color: #ffffff;
+	align-content: center;
+	text-align: center;
+	font-size: 300%;
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+nav {
+	font-family: Fira;
+	background-image: url("images/contentwrap.png");
+}
+
+nav ul li.active {
+    background-color: rgba(0, 106, 175,0.2);
+}
+
+
+p {
+	font-family: Fira;
+	color: #000000;
+}
+
+footer.page-footer {
+	background-image: url("images/contentwrap.png");
+	alignment: bottom;
+}
+
+strong {
+	font-family: Fira;
+}
